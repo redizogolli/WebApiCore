@@ -1,0 +1,13 @@
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\RevDeBug.setup
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.deps.json
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.dll
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.pdb
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.csprojAssemblyReference.cache
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.AssemblyInfoInputs.cache
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.AssemblyInfo.cs
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.csproj.CopyComplete
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.dll
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.pdb
+C:\Users\r.zogolli\source\repos\WebApiCore\Interfaces\obj\Debug\netcoreapp3.0\RdbLog.txt

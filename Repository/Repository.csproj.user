@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+    <RevDeBugCompilerPath>C:\USERS\R.ZOGOLLI\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\16.0_670398E8\EXTENSIONS\YIYL11UQ.GGG\tmcc\</RevDeBugCompilerPath>
+    <CustomAfterMicrosoftCommonTargets>C:\USERS\R.ZOGOLLI\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\16.0_670398E8\EXTENSIONS\YIYL11UQ.GGG\tmcc\RevDeBug.ImportAfter.targets</CustomAfterMicrosoftCommonTargets>
+    <RevDeBugActive>false</RevDeBugActive>
+    <SaveMetadataAsync>true</SaveMetadataAsync>
+    <RevDeBugDisableNuget>true</RevDeBugDisableNuget>
+    <RevDeBugMetadataPath>C:\Users\r.zogolli\Documents\RevDeBug\WebApiCore\Metadata\\</RevDeBugMetadataPath>
+    <RevDeBugStateStorageType>Continuous</RevDeBugStateStorageType>
+    <isNetCore>true</isNetCore>
+    <PublishWithRevDeBug>false</PublishWithRevDeBug>
+    <RecorderAddress>127.0.0.1</RecorderAddress>
+    <RecorderTCPPort>42742</RecorderTCPPort>
+  </PropertyGroup>
+</Project>
