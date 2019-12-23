@@ -9,7 +9,7 @@
             Get all books From DB
             </summary>
         </member>
-        <member name="M:WebApiCore.Controllers.BookController.GetBook(System.Int32)">
+        <member name="M:WebApiCore.Controllers.BookController.GetBook(System.Int32,System.String)">
             <summary>
             Get Book by id
             </summary>

@@ -150,6 +150,6 @@ C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp3.0\We
 C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp3.0\WebApiCore.xml
 C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp3.0\AutoMapper.dll
 C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp3.0\System.Linq.Dynamic.Core.dll
 C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp3.0\WebApiCore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\obj\Debug\netcoreapp3.0\WebApiCore.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\r.zogolli\source\repos\WebApiCore\WebApiCore\bin\Debug\netcoreapp3.0\System.Linq.Dynamic.Core.dll

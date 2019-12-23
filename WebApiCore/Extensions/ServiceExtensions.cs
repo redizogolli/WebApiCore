@@ -46,6 +46,7 @@ namespace WebApiCore.Extensions
 
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
+            services.AddScoped<IDataShaper<Book>, DataShaper<Book>>();
             services.AddScoped<ISortHelper<Book>, SortHelper<Book>>();
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
         }

@@ -35,6 +35,13 @@ namespace WebApiCore
             services.AddControllers();
 
             services.ConfigureSwagger();
+
+            services.AddControllers(config =>
+                {
+                    config.RespectBrowserAcceptHeader = true;
+                    config.ReturnHttpNotAcceptable = true;
+                }).AddXmlDataContractSerializerFormatters()
+                .AddNewtonsoftJson();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

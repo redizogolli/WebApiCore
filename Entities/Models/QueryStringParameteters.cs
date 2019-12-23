@@ -15,5 +15,9 @@
 
         //sorting 
         public string OrderBy { get; set; }
+
+        //data shaping -> getting only requested fields
+
+        public string Fields { get; set; }
     }
 }

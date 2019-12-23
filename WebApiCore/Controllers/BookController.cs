@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace WebApiCore.Controllers
@@ -29,6 +30,7 @@ namespace WebApiCore.Controllers
         /// Get all books From DB
         /// </summary>
         [HttpGet]
+        [Produces("application/json", "application/xml", Type = typeof(List<string>))]
         public async Task<IActionResult> GetBooks([FromQuery] BookParameters parameters)
         {
             try
@@ -64,13 +66,14 @@ namespace WebApiCore.Controllers
         /// Get Book by id
         /// </summary>
         [HttpGet("{id}", Name = "BookById")]
-        public async Task<IActionResult> GetBook(int id)
+        [Produces("application/json", "application/xml", Type = typeof(List<string>))]
+        public async Task<IActionResult> GetBook(int id, [FromQuery] string fields)
         {
             try
             {
-                var book = await _repository.Book.GetBookAsync(id);
+                var book = await _repository.Book.GetBookAsync(id, fields);
 
-                if (book == null)
+                if (book == default(Entity))
                 {
                     _logger.LogInfo($"Book with id:{id} not found.");
                     return NotFound();

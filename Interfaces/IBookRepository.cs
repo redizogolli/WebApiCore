@@ -18,11 +18,11 @@ namespace Interfaces
 
         Task<IEnumerable<Book>> GetBooksAsync(BookParameters parameters);
 
-        Task<Book> GetBookAsync(int id);
+        Task<Entity> GetBookAsync(int id, string fields);
 
         Task AddBookAsync(Book book);
 
-        Task<PagedList<Book>> GetBooksWithPaginationAsync(BookParameters parameters);
+        Task<PagedList<Entity>> GetBooksWithPaginationAsync(BookParameters parameters);
 
         PagedList<Book> GetBooksWithPagination(BookParameters parameters);
     }

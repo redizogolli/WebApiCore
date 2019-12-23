@@ -11,9 +11,11 @@ namespace Repository
     public class BookRepository : RepositoryBase<Book>, IBookRepository
     {
         private readonly ISortHelper<Book> _sortHelper;
-        public BookRepository(RepositoryContext repositoryContext, ISortHelper<Book> sortHelper) : base(repositoryContext)
+        private readonly IDataShaper<Book> _dataShaper;
+        public BookRepository(RepositoryContext repositoryContext, ISortHelper<Book> sortHelper, IDataShaper<Book> dataShaper) : base(repositoryContext)
         {
             _sortHelper = sortHelper;
+            _dataShaper = dataShaper;
         }
 
         public void AddBook(Book book)
@@ -36,10 +38,11 @@ namespace Repository
             return FindByCondition(x => x.Id == id).FirstOrDefault();
         }
 
-        public async Task<Book> GetBookAsync(int id)
+        public async Task<Entity> GetBookAsync(int id, string fields)
         {
             var book = await FindByConditionAsync(x => x.Id == id);
-            return book.FirstOrDefault();
+
+            return _dataShaper.ShapeData(book.FirstOrDefault(), fields);
         }
 
         public IEnumerable<Book> GetBooks(BookParameters parameters)
@@ -79,7 +82,7 @@ namespace Repository
         /// <summary>
         /// Getting books async with pagination
         /// </summary>
-        public async Task<PagedList<Book>> GetBooksWithPaginationAsync(BookParameters parameters)
+        public async Task<PagedList<Entity>> GetBooksWithPaginationAsync(BookParameters parameters)
         {
             var books = await FindAllAsync();
 
@@ -87,7 +90,9 @@ namespace Repository
 
             books = _sortHelper.ApplySort(books, parameters);
 
-            return PagedList<Book>.ToPagedList(books,
+            var shapedBooks = _dataShaper.ShapeData(books, parameters.Fields);
+
+            return PagedList<Entity>.ToPagedList(shapedBooks,
                 parameters.PageNumber,
                 parameters.PageSize);
         }
