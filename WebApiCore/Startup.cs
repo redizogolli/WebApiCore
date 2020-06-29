@@ -28,9 +28,13 @@ namespace WebApiCore
 
             services.ConfigureDbContext(Configuration);
 
-            services.ConfigureRepositoryWrapper();
+            services.ConfigureDependencies();
 
             services.ConfigureAutoMapper();
+
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            services.ConfigureJWT(Configuration);
 
             services.AddControllers();
 
@@ -53,6 +57,9 @@ namespace WebApiCore
             }
 
             app.UseHttpsRedirection();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseRouting();
 

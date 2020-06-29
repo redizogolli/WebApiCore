@@ -16,5 +16,6 @@
     <PublishWithRevDeBug>false</PublishWithRevDeBug>
     <RecorderAddress>127.0.0.1</RecorderAddress>
     <RecorderTCPPort>42742</RecorderTCPPort>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>

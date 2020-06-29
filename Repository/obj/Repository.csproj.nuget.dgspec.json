@@ -1,36 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Repository\\Repository.csproj": {}
+    "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Repository\\Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj": {
+    "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\r.zogolli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Redi Zogolli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\r.zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Redi Zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -41,15 +39,23 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -66,45 +72,49 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\Interfaces.csproj": {
+    "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\Interfaces.csproj",
         "projectName": "Interfaces",
-        "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\Interfaces.csproj",
-        "packagesPath": "C:\\Users\\r.zogolli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\obj\\",
+        "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\Redi Zogolli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\r.zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Redi Zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj"
+              "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj"
               }
             }
           }
@@ -116,7 +126,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -127,48 +137,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Repository\\Repository.csproj": {
+    "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\r.zogolli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Redi Zogolli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\r.zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Redi Zogolli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Entities\\Entities.csproj"
+              "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\Interfaces.csproj": {
-                "projectPath": "C:\\Users\\r.zogolli\\source\\repos\\WebApiCore\\Interfaces\\Interfaces.csproj"
+              "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "C:\\Users\\Redi Zogolli\\Desktop\\Project\\WebApiCore\\Interfaces\\Interfaces.csproj"
               }
             }
           }
@@ -180,7 +194,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -191,12 +205,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApiCore.Controllers
 {
@@ -29,7 +30,7 @@ namespace WebApiCore.Controllers
         /// <summary>
         /// Get all books From DB
         /// </summary>
-        [HttpGet]
+        [HttpGet,Authorize]
         [Produces("application/json", "application/xml", Type = typeof(List<string>))]
         public async Task<IActionResult> GetBooks([FromQuery] BookParameters parameters)
         {
@@ -65,7 +66,7 @@ namespace WebApiCore.Controllers
         /// <summary>
         /// Get Book by id
         /// </summary>
-        [HttpGet("{id}", Name = "BookById")]
+        [HttpGet("{id}", Name = "BookById"),Authorize]
         [Produces("application/json", "application/xml", Type = typeof(List<string>))]
         public async Task<IActionResult> GetBook(int id, [FromQuery] string fields)
         {
@@ -93,7 +94,7 @@ namespace WebApiCore.Controllers
         /// <summary>
         /// Adding new book
         /// </summary>
-        [HttpPost]
+        [HttpPost,Authorize]
         public async Task<IActionResult> AddBook([FromBody] BookDto book)
         {
             try
@@ -126,7 +127,7 @@ namespace WebApiCore.Controllers
         /// <param name="id">Book Id</param>
         /// <param name="book">BookDTO</param>
         /// <returns></returns>
-        [HttpPut("{id}")]
+        [HttpPut("{id}"),Authorize(Roles = "Manager,Admin")]
         public IActionResult UpdateBook(int id, [FromBody]BookDto book)
         {
             try
@@ -165,7 +166,7 @@ namespace WebApiCore.Controllers
         /// </summary>
         /// <param name="id">Book Id</param>
         /// <returns></returns>
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}"),Authorize(Roles = "Admin")]
         public IActionResult DeleteBook(int id)
         {
             try

@@ -10,6 +10,8 @@ namespace WebApiCore
         {
             CreateMap<Book, BookDto>();
             CreateMap<BookDto, Book>();
+            CreateMap<UserRegisterDto, User>();
+            CreateMap<User, UserRegisterDto>();
         }
     }
 }

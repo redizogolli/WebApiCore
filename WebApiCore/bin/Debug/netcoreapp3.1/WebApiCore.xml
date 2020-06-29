@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiCore</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiCore.Controllers.AuthenticationController.RegisterUser(Entities.DataTransferObjects.UserRegisterDto)">
+            <summary>
+            Register new User
+            </summary>
+            <param name="userForRegistration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiCore.Controllers.AuthenticationController.Authenticate(Entities.DataTransferObjects.UserAuthenticationDto)">
+            <summary>
+            login with username password
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiCore.Controllers.BookController.GetBooks(Entities.Models.BookParameters)">
+            <summary>
+            Get all books From DB
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.BookController.GetBook(System.Int32,System.String)">
+            <summary>
+            Get Book by id
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.BookController.AddBook(Entities.DataTransferObjects.BookDto)">
+            <summary>
+            Adding new book
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.BookController.UpdateBook(System.Int32,Entities.DataTransferObjects.BookDto)">
+            <summary>
+            Update Book
+            </summary>
+            <param name="id">Book Id</param>
+            <param name="book">BookDTO</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiCore.Controllers.BookController.DeleteBook(System.Int32)">
+            <summary>
+            Delete Book
+            </summary>
+            <param name="id">Book Id</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

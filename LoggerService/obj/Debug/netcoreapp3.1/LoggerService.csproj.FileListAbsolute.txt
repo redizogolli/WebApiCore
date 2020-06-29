@@ -1,0 +1,15 @@
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csprojAssemblyReference.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb

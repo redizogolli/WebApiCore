@@ -13,3 +13,17 @@ C:\Users\r.zogolli\source\repos\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Re
 C:\Users\r.zogolli\source\repos\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.dll
 C:\Users\r.zogolli\source\repos\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.pdb
 C:\Users\r.zogolli\source\repos\WebApiCore\Repository\obj\Debug\netcoreapp3.0\RdbLog.txt
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Repository.deps.json
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Repository.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Repository.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Entities.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Interfaces.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Entities.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\bin\Debug\netcoreapp3.0\Interfaces.pdb
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.csprojAssemblyReference.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.AssemblyInfo.cs
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.csproj.CopyComplete
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.dll
+C:\Users\Redi Zogolli\Desktop\Project\WebApiCore\Repository\obj\Debug\netcoreapp3.0\Repository.pdb
